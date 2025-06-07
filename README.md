@@ -1,9 +1,9 @@
 # 🏅 Sistema TAF-AI: Análise Inteligente de Teste de Aptidão Física
 
 <p align="center">
-  <img src="https://img.shields.io/github/v/release/[SEU_USUARIO_GITHUB]/[SEU_REPOSITORIO]?style=for-the-badge&logo=github" alt="Versão">
-  <img src="https://img.shields.io/github/last-commit/[SEU_USUARIO_GITHUB]/[SEU_REPOSITORIO]?style=for-the-badge&logo=github" alt="Último Commit">
-  <img src="https://img.shields.io/github/stars/[SEU_USUARIO_GITHUB]/[SEU_REPOSITORIO]?style=for-the-badge&logo=github" alt="Estrelas no GitHub">
+  <img src="https://img.shields.io/github/v/release/raphalrez/Sistema-Analise-TAF?style=for-the-badge&logo=github" alt="Versão">
+  <img src="https://img.shields.io/github/last-commit/raphalrez/Sistema-Analise-TAF?style=for-the-badge&logo=github" alt="Último Commit">
+  <img src="https://img.shields.io/github/stars/raphalrez/Sistema-Analise-TAF?style=for-the-badge&logo=github" alt="Estrelas no GitHub">
   <img src="https://img.shields.io/badge/license-MIT-green?style=for-the-badge" alt="Licença">
 </p>
 
@@ -33,9 +33,8 @@ O resultado é um dashboard intuitivo, construído com **React** e **TypeScript*
 ## 🎬 Demonstração da Plataforma
 
 <p align="center">
-  <em>(Substitua pela sua incrível demo em GIF!)</em>
   <br>
-  <img src="https://placehold.co/800x450/2d3748/ffffff?text=Demonstra%C3%A7%C3%A3o+Completa+do+Fluxo" alt="Demonstração do Projeto" width="90%">
+  <img src="demo.gif" alt="Demonstração do Projeto" width="90%">
   <br>
   <sup>Fluxo completo: Gerenciamento de candidatos, análise de vídeo e visualização de resultados.</sup>
 </p>
@@ -59,7 +58,7 @@ O resultado é um dashboard intuitivo, construído com **React** e **TypeScript*
 | :--- | :--- |
 | **Frontend** | `React`, `TypeScript`, `Vite`, `Tailwind CSS`, `Shadcn/UI`, `TanStack Query`, `Axios` |
 | **Backend** | `Python`, `Flask`, `SQLite` |
-| **IA & Visão Computacional** | `Ultralytics (YOLOv8)`, `OpenCV` |
+| **IA & Visão Computacional** | `Ultralytics (YOLOv11)`, `OpenCV` |
 | **Processamento de Vídeo** | `FFmpeg` |
 | **Nuvem & APIs** | `Google Drive API` |
 | **Ambiente e Qualidade** | `Node.js`, `NPM`, `Ambiente Virtual Python (venv)` |
@@ -80,8 +79,8 @@ Siga estes passos para ter a aplicação completa rodando na sua máquina.
 ### 1. Clonar o Repositório
 
 ```bash
-git clone https://github.com/[SEU_USUARIO_GITHUB]/[SEU_REPOSITORIO].git
-cd [NOME_DO_PROJETO]
+git clone https://github.com/raphalrez/Sistema-Analise-TAF.git
+cd Sistema-Analise-TAF
 ```
 
 ### 2. Configurar o Backend
