@@ -1,0 +1,5 @@
+Flask
+Flask-Cors
+ultralytics
+opencv-python-headless  # A versão correta para servidores!
+Werkzeug

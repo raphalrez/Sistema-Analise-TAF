@@ -1,0 +1,41 @@
+# Arquivos de Dependências Gigantes (devem ser ignorados!)
+/frontend/node_modules/
+/backend/venv/
+
+# Arquivos de Cache e Gerados do Python
+/backend/__pycache__/
+*.pyc
+
+# Arquivos de Banco de Dados e Gerados pela Aplicação
+# Nunca envie seu banco de dados com dados de usuários para um repo público
+/backend/candidatos.db
+/backend/candidatos.db-journal
+
+# Arquivos temporários da execução dos vídeos.
+# Vamos criar um .gitkeep para manter as pastas vazias no repositório.
+/backend/uploads/*
+/backend/processed/*
+
+# Arquivo de Segredos (ESSA É A LINHA MAIS IMPORTANTE DE TODAS!!!)
+# NUNCA, JAMAIS, EM HIPÓTESE ALGUMA envie suas credenciais para o GitHub!
+/backend/google_credentials.json
+
+# Arquivos de build e de ambiente do Frontend
+/frontend/dist
+/frontend/.env
+/frontend/.env.*
+!/frontend/.env.example
+
+# Logs do NPM
+/frontend/npm-debug.log*
+/frontend/yarn-debug.log*
+/frontend/yarn-error.log*
+/frontend/pnpm-debug.log*
+
+# Arquivos de Configuração do Editor/IDE
+.vscode/
+.idea/
+
+# Arquivos do Sistema Operacional
+.DS_Store
+Thumbs.db
