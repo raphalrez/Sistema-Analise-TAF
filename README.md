@@ -24,7 +24,7 @@
 
 Avaliações de testes físicos, como as de concursos públicos e academias, são frequentemente marcadas pela subjetividade, cansaço do avaliador e falta de consistência. O **Sistema TAF-AI** nasceu para resolver esse problema.
 
-Este projeto é uma plataforma completa (full-stack) que utiliza **Visão Computacional** para analisar vídeos de exercícios. Um usuário pode enviar um vídeo realizando flexões, e a nossa IA, construída com **YOLOv8** e **OpenCV**, não apenas conta as repetições, mas avalia a **qualidade** de cada movimento, identificando se a amplitude correta foi atingida.
+Este projeto é uma plataforma completa (full-stack) que utiliza **Visão Computacional** para analisar vídeos de exercícios. Um usuário pode enviar um vídeo realizando flexões, e a nossa IA, construída com **YOLOv11** e **OpenCV**, não apenas conta as repetições, mas avalia a **qualidade** de cada movimento, identificando se a amplitude correta foi atingida.
 
 O resultado é um dashboard intuitivo, construído com **React** e **TypeScript**, onde avaliadores podem gerenciar candidatos, visualizar relatórios detalhados e ter uma base de dados concreta para avaliações justas e eficientes.
 
